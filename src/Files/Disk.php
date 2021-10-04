@@ -46,7 +46,7 @@ class Disk
      */
     public function __call($name, $arguments)
     {
-        return $this->disk[$name](...$arguments);
+        return $this->disk->{$name}(...$arguments);
     }
 
     /**
