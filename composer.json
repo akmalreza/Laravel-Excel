@@ -1,5 +1,5 @@
 {
-  "name": "akmalreza/excel",
+  "name": "akmalreza/maatwebsite/excel",
   "description": "Supercharged Excel exports and imports in Laravel | This package is only adjustment for php 7.4 syntax, please visit the Maatwebsite package for the latest package",
   "license": "MIT",
   "keywords": [
