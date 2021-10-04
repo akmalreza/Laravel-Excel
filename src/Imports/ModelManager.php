@@ -174,14 +174,14 @@ class ModelManager
             $updatedAtColumn = $model->getUpdatedAtColumn();
 
             // If model has updated at column and not manually provided.
-            if ($updatedAtColumn && null === $model->{$updatedAtColumn}) {
+            if ($updatedAtColumn && null === $model[$updatedAtColumn]) {
                 $model->setUpdatedAt($time);
             }
 
             $createdAtColumn = $model->getCreatedAtColumn();
 
             // If model has created at column and not manually provided.
-            if ($createdAtColumn && null === $model->{$createdAtColumn}) {
+            if ($createdAtColumn && null === $model[$createdAtColumn]) {
                 $model->setCreatedAt($time);
             }
         }
